@@ -353,7 +353,7 @@ function fetch_order_stats($conn,$invoice_id){
 
 //collecting data from telegram payload
 $update = json_decode($new_content, true);
-$token = '1843350988:AAGOpMoZ5MIrAJiYkUwTzBvvM9nr-vCT8UE';
+$token = "";
 $api = 'https://api.telegram.org/bot' . $token;
 
 $text = $update['message']['text'];
